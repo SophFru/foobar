@@ -1,0 +1,31 @@
+Prompt: the-cake-is-not-a-lie
+
+I didn't think to copy and paste the prompt and I wasn't aware the prompt would go away after submission.
+
+*From memory:*
+
+Lambda has a new high score in Tetris, and has brought a cake to celebrate. All ranks can have some, even low-level minions! You're in charge of dividing up the cake, but minions are fiercely competitive, so you better not mess up.
+
+The cake is completely uniform, except for the M&Ms, which are placed around the top of the cake. Lambda inists that every minion have a slice with the same sequence of M&M colors. He also hates food waste, so the entire cake must be divided up.
+
+The M&M's are placed clockwise around the cake, and a string of letters can be used to represent the arrangement of M&M's. Each unique color of M&M is assigned a letter from 'a' to 'z'. Given a non-empty string that is less than 200 characters, what is the maximum number of pieces of cake that can be made where each piece has the same sequence of colors and no cake is wasted?
+
+Python
+
+edit solution.py
+
+Example test cases:
+
+solution('abcabcabcabc') returns 4
+
+solution('abccbaabccba') returns 2
+
+Java
+
+edit Solution.java
+
+Example test cases:
+
+solution('abcabcabcabc') returns 4
+
+solution('abccbaabccba') returns 2
