@@ -57,9 +57,6 @@ def bfs(map):
             if map[i][j] == 1:
                 visited[i][j] = True
     while q:
-        # print("===")
-        # for line in visited:
-        #     print(line)
         curr = q.pop(0)
         if curr.x == len(map) - 1 and curr.y == len(map[0]) - 1:
             return curr.dist
